@@ -1,0 +1,3 @@
+# Geoinformation-in-Society
+Conversion of csv file to rdf triples.
+I worked on Triple store development, for RDF conversion. RDF (Resource Description Framework) which represents a de-scription of a resource as a number of triples. In the first try, I planned to use the Open-Refine but I was unable to define RDF types so it was difficult to proceed further. Then Yousef, my team member and I searched for the RDF converter, then I got LevelUp. As the CSV data got from Katarzyna my team member, I proceeded in converting it to RDF triples. Before the conversion process we changed the prefix according to our project . Then I imported the converted triples to the Virtuose Triple store and quired the RDF in SPARQL
